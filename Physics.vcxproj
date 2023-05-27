@@ -154,6 +154,7 @@
     <ClCompile Include="AreaForce.cpp" />
     <ClCompile Include="Body.cpp" />
     <ClCompile Include="CircleShape.cpp" />
+    <ClCompile Include="Collisions\Collision.cpp" />
     <ClCompile Include="DragForce.cpp" />
     <ClCompile Include="ForceGenerator.cpp" />
     <ClCompile Include="ForceTest.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="PointForce.cpp" />
     <ClCompile Include="Primitives.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Tests\CollisionTest.cpp" />
     <ClCompile Include="Time.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
@@ -174,6 +176,8 @@
     <ClInclude Include="AreaForce.h" />
     <ClInclude Include="Body.h" />
     <ClInclude Include="CircleShape.h" />
+    <ClInclude Include="Collisions\Collision.h" />
+    <ClInclude Include="Collisions\Contact.h" />
     <ClInclude Include="DragForce.h" />
     <ClInclude Include="ForceGenerator.h" />
     <ClInclude Include="ForceTest.h" />
@@ -189,6 +193,7 @@
     <ClInclude Include="Random.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="Tests\CollisionTest.h" />
     <ClInclude Include="Time.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
